@@ -1,0 +1,310 @@
+body {
+    background-image: url("../IMG/FONDO\ MENU.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:1870px; 
+}
+
+.imgbarra{
+    display: flex;
+   position:relative;
+   left: 330px;
+   top: 450px;
+   width: 1400px; 
+}
+
+.menulink {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 200px;
+    left: 750px;
+    top: 470px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.526);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.escudoriver {
+    display: flex;
+    position: relative;
+    left: 210px;
+    top: 165px;
+}
+
+.artcontenedor {
+   display: flex;
+   flex-direction:row;
+   position:relative;
+   margin: 250px;
+}
+
+.textoarticulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-rondon {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 30px;
+}
+   
+.titulo {
+    font-size: 23px;
+}
+
+.textonoticia {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.separadorh {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 600px;
+    bottom: 60px;
+    left: 300px;   
+}
+
+.img-chori {
+     display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.choridominguez {
+    display: flex;
+    bottom: 140px;
+}
+
+.art-column {
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 384px;
+   height: 700px;
+   margin-left: 250px;
+   bottom: 300px;
+}
+
+.img-diaz {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 384px;
+    margin-bottom: 30px;
+}
+
+.textocolumn {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.divisor2 {
+    display: flex;
+    position: relative;
+    bottom: 980px;
+    left: 930px;  
+}
+
+.partidos {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items:self-end;
+    bottom: 1640px;
+    margin-right: 250px;
+}
+
+.partidosjugados {
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    right: 89px;
+    bottom: 30px;
+}
+
+.partidoproximo { 
+    width:fit-content;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1500px;
+    margin: auto 560px;
+}
+
+.proxfecha {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 25px;
+    margin-left: 45px;
+}
+
+.proxpartido {
+    display: flex;
+    flex-direction:row;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.plantel {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    margin: auto 250px;
+    height: 350px;
+    bottom: 1370px;
+}
+
+.tituloplantel {
+    width:max-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 520px;     
+}
+
+.jugadores {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    right: 285px;
+    gap: 70px;
+}
+
+.nombres {
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    justify-content: center;
+    gap:85px;
+    margin: auto 250px;
+    left: 30px;
+    bottom: 1390px;
+}
+
+.posicion {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    width: fit-content;
+    gap: 270px;
+    left: 390px;
+    bottom: 20px;
+    bottom: 1430px;
+}
+
+.videosriver {
+    height: 570px;
+    margin: auto 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1300px;
+}
+
+.titulovideo {
+    display: flex;
+    justify-content: center;
+}
+
+.imgvideos {
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   gap: 80px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.redes {
+    width: auto;
+    height: 50px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 350px;
+}
+
+.tamañoredes {
+    font-size: 50px;
+    color: red;
+    margin:auto 40px;   
+}
+
+.divisor3 {
+    display: flex;
+    position: relative;
+    right: 5px;
+    width: 1848px;
+    bottom: 340px; 
+}
+
+.footercont {
+    background-color: #274347;
+    display:flex ;
+    position: absolute;
+    flex-direction: row;
+    width:100%;
+    height: 200px; 
+    right: 0px;
+    left: 0px;
+    margin-top: 50px;   
+}
+footer div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer p {
+    color: white;
+}
+
+.carp {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: 320px;
+    top: 20px;
+}
+
+.desarrollador {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: 570px;
+    top: 20px;
+}
+
+footer img {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 842px;
+    bottom: 150px;
+}
